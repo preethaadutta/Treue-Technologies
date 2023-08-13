@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body{
+    background-image: linear-gradient(115deg,#380036 30%,#0cbaba 90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+}
+section{
+	display: grid;
+	place-items: center;
+    width: 100vw;
+}
+div.container{
+    width: 100vw;
+}
+.section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid yellow;
+}
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+.single-item{
+    background: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: #fff;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area{
+	margin: 0 15px 15px 15px;
+}
+.img-area img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 4px solid #e6b30e;
+}
+.content{
+    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
+}
+.content p{
+	text-align: justify;
+}
+.content p span{
+	font-size: 48px;
+    font-size: 40px;
+    font-size: 35px;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #e6b30e;
+}
+.socials i{
+	margin-right: 25px;
+}
+p.socials{
+    text-align: center;
+}
+
+/*@media screen and (max-width:360px)*/
+@media screen and (max-width:372px){
+    .socials i {
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width:344px){
+    .img-area img{
+        height: 100px;
+        width: 100px;
+    }
+    .section-header{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .single-item{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .content{
+        font-size: 15px;
+    }
+    .content p span{
+        font-size: 15px;
+    }
+}
